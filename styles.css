@@ -1,0 +1,51 @@
+body {
+    background-color: #000000; /* Black background */
+    color: #dcdcdc; /* Light text for contrast */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center text for a balanced look */
+    margin: 0; /* No margin */
+    padding: 20px; /* Padding around the content */
+}
+
+/* Styles for headings */
+h1 {
+    color: #ffffff; /* White for headings */
+}
+
+/* Styles for lists */
+ul {
+    list-style-type: none; /* No bullet points for lists */
+    padding: 0; /* No padding */
+}
+
+ul li {
+    margin: 10px 0; /* Spacing between list items */
+}
+
+/* Styles for links/buttons */
+a {
+    text-decoration: none; /* No underline on links */
+    color: #ffffff; /* White text for links */
+
+    padding: 10px 20px; /* Padding for a button-like effect */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Display links as blocks for consistent spacing */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for links/buttons */
+a:hover {
+    background-color: #66bb6a; /* Change color on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    a {
+        padding: 8px 16px; /* Adjust padding for smaller screens */
+    }
+}
